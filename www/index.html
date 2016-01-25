@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+
+    <!-- compiled css output -->
+    <link href="css/ionic.app.css" rel="stylesheet">
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+    <script src="js/router.js"></script>
+</head>
+<body ng-app="starter">
+<ion-content padding="true" scroll="false" style="background: #1c2627 url(img/login_bg.png) center; background-size: cover;">
+    <form>
+        <div class="row responsive-md">
+            <div class="col col-50 col-offset-25">
+
+                <div class="header padding text-center">
+                    <img src="img/login.png" alt="Your logo here"/>
+                </div>
+
+                <div class="list">
+                    <label class="item item-input">
+                        <input type="email" placeholder="Email">
+                    </label>
+                    <label class="item item-input">
+                        <input type="password" placeholder="Password">
+                    </label>
+                </div>
+
+                <button class="button button-block button-positive">
+                    Log In
+                </button>
+
+                <div class="row row-no-padding">
+                    <div class="col">
+                        <button class="button button-clear button-light">
+                            Forgot password?
+                        </button>
+                    </div>
+
+                    <div class="col text-right">
+                        <button class="button button-clear button-light">
+                            Sign up
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</ion-content>
+</body>
+</html>
